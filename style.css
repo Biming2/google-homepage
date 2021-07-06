@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.header-button {
+    padding: 6px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-button:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+}
+
+.main-header-content {
+    display: flex;
+    padding: 0px 4px 0px 32px;
+    font-size: 13px;
+}
+
+#google-apps {
+    padding: 0px 6px 0px 6px;
+    height: 24px;
+    width: 24px;
+}
+
+#google-apps-link {
+    align-self: center;
+}
+
+#profile-picture {
+    background-size: 32px 32px;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    padding: 0px 6px 0px 6px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 290px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.search-buttons {
+    padding: 12px;
+}
+
+.offered-language {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    flex-direction: column;
+}
