@@ -1,0 +1,1 @@
+This is a mini-project deconstructing and rebuilding Google's homepage for The Odin Project.
